@@ -1,0 +1,343 @@
+
+<style>
+		#rs{ /* modifier style icones de reseaux sociaux  */
+		
+		text-align: center;
+        float: right;
+        margin-right: 4px;
+        margin-left:40px;
+        width: 4%;
+        margin-bottom: 40px;
+        margin-top: 18%;
+        padding:45px;
+		margin:0;
+		border: 2px solid #eeeeee;
+		border-spacing: 34em;
+		margin-top: 20px;
+     
+          		
+		}
+
+		#rs1{ /* modifier style icones de reseaux sociaux  */
+		color: #aab7c1;
+			padding:45px;
+			margin:0;
+			border: 2px solid #eeeeee;
+			border-spacing: 34em;
+			margin-top: 20px;
+			text-align: center;
+   		 }
+
+		.signature{ /* modifier le style de signature en fin d'article
+		"chroniquese de voyage"  */
+
+			text-align: center;
+			text-decoration: none;
+		
+		}
+
+		a{ /*permet de mofidier le surlignage des liens */
+			color: #aab7c1;
+			text-decoration: none;
+		}
+
+
+		.bg-light {
+			flex-direction: column;
+			background-color: #eeeeee!important;
+		}
+						
+
+
+		#navbar{ /*permet de mofidier le menu*/
+			position: center;
+			border:2px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bold;
+			text-decoration: none;
+
+		}
+
+
+		#navbar ul{
+			text-align:center;
+			padding:0px;
+			margin:0px;
+			list-style-type: none;
+		
+
+
+		}
+
+		.navbar-nav {
+            float:none;
+            margin:0 auto;
+            text-align: center;
+        }
+
+        .navbar-nav > li {
+            display: inline-block;
+            float:none;
+        }
+
+		#navbar li{
+			padding:0;
+			margin: 0;
+			display: inline-block;
+			/*width:250px;*/
+			height:100%;
+			text-align: center;
+			margin-bottom:5px;
+			line-height: 30px;
+			
+		}
+
+
+		#navbar li a{ 
+			display: block;
+			text-decoration: none;
+			color: #3C3C3C;
+		}
+
+		#navbar li :hover{ /* changement couleur si passage souris sur menu  */
+			background-color: #3C3C3C;
+			color: #ffffff;
+		}
+
+
+		#imagetop{ /* Modifier limage d en tete  */
+			padding-bottom:20px;
+			margin-bottom:20px;
+			/*padding-top:10px;*/
+			width: 100%;
+		
+		}
+
+		.article1{ /* modifier le contenu de l article 1  */
+			text-align: justify;
+			margin-right: 15px;
+			margin-left: 15px;
+
+			
+		}
+
+		.titre1{ /* mModifier le titre article 1  */
+			margin-top: 15px;
+			margin-bottom: 15px;
+			margin-right: 15px;
+			margin-left: 15px;
+			text-align: center;
+			font-size: 18px;
+			
+		}
+
+		#edimbourg{ /* Ajouter des bordures autour de l article 1  */
+			border: 2px solid #eeeeee;
+			dashed: #eeeeee;
+			margin-right: 2px;
+			margin-left: 2px;
+			margin-bottom: 25px;
+		}
+
+		
+
+		h5{ /* hanger style balise h5 souvent les gros titres  */
+			font-size: 16px;
+			color: #aab7c1;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.h5, h5 { /*  modification sous bootcamp  */
+			font-size: 16px;
+			color: #aab7c1;
+			margin-top: 10px;
+			margin-bottom: 10px;
+        }
+
+		.article2{ /* ajuster forme contenu article 2  */
+			text-align: justify;
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+
+		.titre2{ /* titre article 2  */
+	 		margin-top: 15px;
+			margin-bottom: 15px;
+			margin-right: 15px;
+			margin-left: 15px;
+			text-align: center;
+			font-size: 18px;
+
+		
+		}
+
+		#barcelone{ /* bordur article 2  */
+				border: 2px solid #eeeeee;
+				dashed: #eeeeee;
+				margin-right: 2px;
+				margin-left: 2px;
+				margin-bottom: 25px;
+		}
+
+		#logo{
+			padding-bottom:40px;
+			padding-top:25px;
+		}
+
+		body{
+			font-family: 'Raleway', sans-serif;
+			color: #3C3C3C;
+
+		}
+
+
+		/*  modifier barre de recherche */
+		#recherche input[type=text] {
+			font:3 10px "Raleway" sans-serif;
+			background:none;
+			width:180px;
+			padding:0px 9px;
+			text-align: center;
+			color: #3C3C3C;
+
+			}
+
+		#recherche-cadre{
+			color: #aab7c1;
+			padding:35px;
+			margin:0;
+			border: 2px solid #eeeeee;
+			border-spacing: 4em;
+			margin-top: 0px;
+			text-align: center;
+		
+		}
+
+		#recherche input {
+			outline:0;
+			border:0;
+			margin:0;
+			height:15px;
+			float:left;
+			display:block;
+			text-align: center;
+			} 			}
+			  
+			
+		#recherche {
+			width:270px;
+			height:30px;
+			margin:0;
+			padding: 5px;
+			background:white;
+			text-align: center;
+
+		}
+
+
+		
+		.articlerecent{ /* bordure et style rubrique article recents  */
+			color: #aab7c1;
+			padding:45px;
+			margin:0;
+			border: 2px solid #eeeeee;
+			border-spacing: 34em;
+			margin-top: 20px;
+		
+		}
+
+		#articlerecenttitre{ /*  modification titre rubrique article recent */
+			font-weight: bold;
+			text-align: center;
+		}
+
+
+		#moi{ /* bordure et style rubrique qui suis je  */
+			color: #aab7c1;
+			padding:45px;
+			margin:0;
+			border: 2px solid #eeeeee;
+			border-spacing: 34em;
+			margin-bottom: 20px;
+			text-align: center;
+
+		}
+
+		#photo-moi{ /* photo  rubrique qui suis je  */
+			margin-bottom: 12px;
+			margin-top: 2px;
+		}
+
+	
+	
+
+		footer{ /* taille et style du footer  */
+			background-color: #aab7c1;
+			text-align: center; 
+			position: relative;
+			height: 90px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			font-size: 13px;
+			color: #3C3C3C;
+		}
+
+		#footer{
+			font-size: 11px;
+			color: #ffffff;		
+		}
+
+
+		/*modifier pictogramme de retour en haut*/
+		#footerimage{
+			margin-bottom: 15px;
+		}
+
+		.showonhover { /* lire la suite article  */
+			display: none;
+		}
+
+		#edimbourg:hover .showonhover { /* faire apparaitre suite article  */
+			display: block;
+		}
+
+		.showonhover:hover { /* faire apparaitre suite article  */
+			display: block;
+		
+		}
+
+		#survolez{ /*  style du texte survolez */
+			text-align: center;
+			font-style: italic;
+		}
+
+		#edimbourg:hover #survolez { 
+    	display:none;
+		}
+
+		#barcelone:hover .showonhover {
+			display: block;
+		}
+
+		#barcelone:hover #survolez {
+    		 display:none;
+		}
+
+
+
+
+
+
+		a:-webkit-any-link { /* rubrique articles recents, bootcamps mofidier surlignage lien */
+			text-decoration: none;
+		
+		}
+
+		a:-webkit-any-link :hover{ /*  rubrique articles recents, bootcamp changer couleurs lien si passage souris */
+					color: #3C3C3C;
+
+				}
+
+</style>
