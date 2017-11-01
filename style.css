@@ -1,25 +1,24 @@
 
 <style>
 		#rs{ /* modifier style icones de reseaux sociaux  */
-		
-		text-align: center;
-        float: right;
-        margin-right: 4px;
-        margin-left:40px;
-        width: 4%;
-        margin-bottom: 40px;
-        margin-top: 18%;
-        padding:45px;
-		margin:0;
-		border: 2px solid #eeeeee;
-		border-spacing: 34em;
-		margin-top: 20px;
+			text-align: center;
+	        float: right;
+	        margin-right: 4px;
+	        margin-left:40px;
+	        width: 4%;
+	        margin-bottom: 40px;
+	        margin-top: 18%;
+	        padding:45px;
+			margin:0;
+			border: 2px solid #eeeeee;
+			border-spacing: 34em;
+			margin-top: 20px;
      
           		
 		}
 
 		#rs1{ /* modifier style icones de reseaux sociaux  */
-		color: #aab7c1;
+			color: #aab7c1;
 			padding:45px;
 			margin:0;
 			border: 2px solid #eeeeee;
@@ -42,7 +41,8 @@
 		}
 
 
-		.bg-light {
+
+		.bg-light {  /*style du menu clair */
 			flex-direction: column;
 			background-color: #eeeeee!important;
 		}
@@ -59,7 +59,7 @@
 		}
 
 
-		#navbar ul{
+		#navbar ul{ /*permet de mofidier le menu*/
 			text-align:center;
 			padding:0px;
 			margin:0px;
@@ -69,22 +69,21 @@
 
 		}
 
-		.navbar-nav {
+		.navbar-nav { /*permet de mofidier le menu*/
             float:none;
             margin:0 auto;
             text-align: center;
         }
 
-        .navbar-nav > li {
+        .navbar-nav > li { /*permet de mofidier le menu*/
             display: inline-block;
             float:none;
         }
 
-		#navbar li{
-			padding:0;
+		#navbar li{ /*permet de mofidier le menu*/
+			padding:0; 
 			margin: 0;
 			display: inline-block;
-			/*width:250px;*/
 			height:100%;
 			text-align: center;
 			margin-bottom:5px;
@@ -93,7 +92,7 @@
 		}
 
 
-		#navbar li a{ 
+		#navbar li a{  /*permet de mofidier le menu*/
 			display: block;
 			text-decoration: none;
 			color: #3C3C3C;
@@ -108,7 +107,6 @@
 		#imagetop{ /* Modifier limage d en tete  */
 			padding-bottom:20px;
 			margin-bottom:20px;
-			/*padding-top:10px;*/
 			width: 100%;
 		
 		}
@@ -121,7 +119,7 @@
 			
 		}
 
-		.titre1{ /* mModifier le titre article 1  */
+		.titre1{ /* modifier le titre article 1  */
 			margin-top: 15px;
 			margin-bottom: 15px;
 			margin-right: 15px;
@@ -131,7 +129,7 @@
 			
 		}
 
-		#edimbourg{ /* Ajouter des bordures autour de l article 1  */
+		#edimbourg{ /* Ajouter des bordures autour de larticle 1  */
 			border: 2px solid #eeeeee;
 			dashed: #eeeeee;
 			margin-right: 2px;
@@ -148,7 +146,7 @@
 			margin-bottom: 10px;
 		}
 
-		.h5, h5 { /*  modification sous bootcamp  */
+		.h5, h5 { /*  modification sous bootstrap  */
 			font-size: 16px;
 			color: #aab7c1;
 			margin-top: 10px;
@@ -172,7 +170,7 @@
 		
 		}
 
-		#barcelone{ /* bordur article 2  */
+		#barcelone{ /* bordure article 2  */
 				border: 2px solid #eeeeee;
 				dashed: #eeeeee;
 				margin-right: 2px;
@@ -185,7 +183,7 @@
 			padding-top:25px;
 		}
 
-		body{
+		body{  /*modification police du site*/
 			font-family: 'Raleway', sans-serif;
 			color: #3C3C3C;
 
